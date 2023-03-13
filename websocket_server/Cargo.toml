@@ -1,0 +1,12 @@
+[package]
+name = "websocket_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tungstenite = "0.16.0"
+rsa = "0.8.0"
+rand = "0.8.3"
+pkcs1 = "0.4.1"
